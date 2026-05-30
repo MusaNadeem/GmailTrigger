@@ -1,0 +1,31 @@
+# InboxIQ — Git Ignore Rules
+
+# Virtual environment
+venv/
+
+# OAuth tokens (auto-generated)
+token.json
+
+# Credentials (user-provided, contains secrets)
+credentials.json
+
+# Environment variables (contains API keys)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Output files
+results.csv
+.openclaude-profile.json

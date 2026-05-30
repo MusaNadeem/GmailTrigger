@@ -1,0 +1,14 @@
+# InboxIQ Configuration
+
+# LLM Provider: "openai" or "gemini"
+llm_provider: "openai"
+
+# Gmail Settings
+max_emails: 50
+
+# Model settings
+openai_model: "gpt-4o-mini"
+gemini_model: "gemini-2.0-flash"
+
+# Output
+output_file: "results.csv"

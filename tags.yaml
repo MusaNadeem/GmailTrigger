@@ -1,0 +1,29 @@
+# InboxIQ — Tag Classification Rules
+# Hot-reloaded on every run. No code restart needed.
+version: "1.0"
+default_tag: "General"
+
+categories:
+  - name: "Urgent Alerts"
+    keywords: ["outage", "critical", "incident", "emergency", "action required"]
+    description: "System failures, urgent production updates, or critical business interruptions needing immediate eyes."
+
+  - name: "Finance & Billing"
+    keywords: ["invoice", "receipt", "billing", "payment", "subscription", "stripe"]
+    description: "Financial transactions, subscription updates, or processing receipts."
+
+  - name: "Newsletters"
+    keywords: ["weekly", "digest", "newsletter", "subscribed", "roundup"]
+    description: "Informational mailings, reading material, or periodic industry updates."
+
+  - name: "Meetings & Calendar"
+    keywords: ["meeting", "invite", "calendar", "scheduled", "appointment", "reminder"]
+    description: "Meeting invitations, calendar updates, and scheduling notifications."
+
+  - name: "Follow-Up"
+    keywords: ["follow-up", "follow up", "check-in", "check in", "pending", "awaiting"]
+    description: "Emails requiring a response or action from the recipient."
+
+  - name: "Personal"
+    keywords: ["family", "personal", "friend", "social", "invitation"]
+    description: "Personal correspondence, social invitations, and family communications."
